@@ -1,4 +1,4 @@
-# 🚀 DropLine: AI-Driven Universal Link Understanding Assistant
+#  DropLine: AI-Driven Universal Link Understanding Assistant
 
 DropLine is an asynchronous Retrieval-Augmented Generation (RAG) system designed to solve the **"Signpost vs. Destination"** link accessibility bottleneck. It resolves wrapper links, extracts clean semantic content from web pages and YouTube transcripts, and synthesizes it into structured educational insights.
 
@@ -53,6 +53,8 @@ Ensure your device has the following installed:
 4. Configure API Key:
    Open models/ai_engine.py and replace "YOUR_GEMINI_API_KEY" with your secret key from Google AI Studio.
 
+---
+
 
  ## How to Run (Step-by-Step)
 To run DropLine, you must have two separate terminals running at the same time.
@@ -82,13 +84,14 @@ The frontend provides the interactive UI and session management.
        ```PowerShell
            streamlit run frontend/app_ui.py --browser.gatherUsageStats false
 
+---
 
-✨ Key Features & Outputs
+## Key Features & Outputs
 Universal Resolver: Asynchronous logic to follow 301/302 redirects and resolve placeholder links.
 
 High-Precision Extraction: Using Trafilatura, we achieve ~15% content retention, removing 85% of web boilerplate/junk.
 
-5-Point Pedagogical Framework:
+# 5-Point Pedagogical Framework:
    1. Concise Summary (3 sentences).
    2. Key Concepts (Taxonomy of terms).
    3. Teaching Mode (Analogy-based learning).
@@ -97,9 +100,9 @@ High-Precision Extraction: Using Trafilatura, we achieve ~15% content retention,
 
 Stateful Chatbot: Persistent conversation history using st.session_state for multi-turn grounded tutoring.
 
+---
 
-
-📂 Project Structure
+## Project Structure
 backend/: Core FastAPI router (app.py).
 
 frontend/: Streamlit user interface (app_ui.py).
@@ -110,6 +113,7 @@ models/: Pydantic schemas and Gemini prompt engineering.
 
 utils/: Redirect handling and URL validation helpers.
 
+---
 
 ### 🚀 To Push to GitHub:
 Once you have saved the `README.md`, run these commands in your VS Code terminal to update your repository:
