@@ -54,7 +54,7 @@ Ensure your device has the following installed:
    Open models/ai_engine.py and replace "YOUR_GEMINI_API_KEY" with your secret key from Google AI Studio.
 
 
-🏃 How to Run (Step-by-Step)
+ ## How to Run (Step-by-Step)
 To run DropLine, you must have two separate terminals running at the same time.
 
 Step 1: Start the Backend (VS Code Terminal)
