@@ -7,8 +7,9 @@ It takes a link, analyzes the content, and helps the user understand, summarize,
 ## Current MVP
 - link validation
 - short-link expansion
+- universal signpost-to-destination resolution
 - platform detection
-- basic content-type detection
+- basic content-type detection (HTML / media / PDF)
 - webpage title and description extraction
 - JSON API response
 

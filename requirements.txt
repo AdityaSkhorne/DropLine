@@ -1,7 +1,6 @@
-@'
 fastapi
 uvicorn
 requests
+httpx
 beautifulsoup4
 pydantic
-'@ | Set-Content requirements.txt
