@@ -3,6 +3,12 @@
 DropLine is an asynchronous Retrieval-Augmented Generation (RAG) system designed to solve the **"Signpost vs. Destination"** link accessibility bottleneck. It resolves wrapper links, extracts clean semantic content from web pages and YouTube transcripts, and synthesizes it into structured educational insights.
 
 ---
+## 👥 Project Team
+| **Aditya Shankar Khorne** 
+| **Ajay Nabaji Virkar** 
+| **Abhijit R. Yamgar** 
+
+---
 
 ## 🧠 The Problem: Signpost vs. Destination
 Modern web content is often hidden behind "signposts"—wrapper links, redirects, or placeholder URLs (e.g., Google Maps internal links). Standard AI scrapers fail because they attempt to process the signpost code rather than the intended destination data. 
