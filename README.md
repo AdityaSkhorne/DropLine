@@ -1,3 +1,31 @@
+# DropLine
+
+DropLine is a Universal Link Understanding Assistant.
+
+It takes a link, analyzes the content, and helps the user understand, summarize, and learn from it.
+
+## Current MVP
+- link validation
+- short-link expansion
+- universal signpost-to-destination resolution
+- platform detection
+- basic content-type detection (HTML / media / PDF)
+- webpage title and description extraction
+- JSON API response
+
+## Run
+1. Create and activate a virtual environment
+2. Install dependencies
+3. Run `python main.py`
+4. Open `http://127.0.0.1:8000/docs`
+
+## Next steps
+- YouTube support
+- PDF extraction
+- better text extraction
+- frontend UI
+- AI teaching mode
+- multi-link analysis
 # 🚀 DropLine: AI-Driven Universal Link Understanding Assistant
 
 DropLine is an asynchronous Retrieval-Augmented Generation (RAG) system designed to solve the **"Signpost vs. Destination"** link accessibility bottleneck. It resolves wrapper links, extracts clean semantic content from web pages and YouTube transcripts, and synthesizes it into structured educational insights.

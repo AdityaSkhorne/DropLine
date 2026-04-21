@@ -7,12 +7,14 @@ from utils.helpers import is_valid_url
 
 app = FastAPI(title="DropLine API", version="0.2.0")
 
+
 @app.get("/")
 def root():
     return {"message": "DropLine API is running with AI capabilities"}
 
+
 @app.post("/analyze", response_model=AnalyzeResponse)
-def analyze(request: AnalyzeRequest):
+async def analyze(request: AnalyzeRequest):
     if not is_valid_url(request.url):
         raise HTTPException(status_code=400, detail="Invalid URL")
 
