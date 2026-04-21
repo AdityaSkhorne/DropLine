@@ -1,0 +1,4 @@
+Link analyzer ✅
+Platform detector ✅
+Metadata extractor ✅
+API backend ✅
