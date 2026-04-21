@@ -20,7 +20,6 @@ Ensure your device has the following installed:
 
 ---
 
-
 ## Current MVP
 - link validation
 - short-link expansion
@@ -39,7 +38,6 @@ Ensure your device has the following installed:
    ```powershell
    git clone [https://github.com/AdityaSkhorne/DropLine.git](https://github.com/AdityaSkhorne/DropLine.git)
    cd DropLine
-
 
 2. Create a Virtual Environment:
    ```PowerShell
@@ -120,5 +118,3 @@ Once you have saved the `README.md`, run these commands in your VS Code terminal
 1.  `git add README.md`
 2.  `git commit -m "Update README with Universal Resolver and Setup Guide"`
 3.  `git push origin main`
-
-Would you like me to help you draft the **"Troubleshooting"** section if you encounter any issues during the `git push`?
