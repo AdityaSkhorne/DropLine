@@ -91,7 +91,7 @@ Universal Resolver: Asynchronous logic to follow 301/302 redirects and resolve p
 
 High-Precision Extraction: Using Trafilatura, we achieve ~15% content retention, removing 85% of web boilerplate/junk.
 
-# 5-Point Pedagogical Framework:
+#### 5-Point Pedagogical Framework:
    1. Concise Summary (3 sentences).
    2. Key Concepts (Taxonomy of terms).
    3. Teaching Mode (Analogy-based learning).
