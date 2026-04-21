@@ -1,7 +1,8 @@
-@'
 fastapi
 uvicorn
 requests
 beautifulsoup4
 pydantic
-'@ | Set-Content requirements.txt
+trafilatura
+google-genai
+streamlit
