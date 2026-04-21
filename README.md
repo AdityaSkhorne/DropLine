@@ -1,4 +1,4 @@
-# DropLine — Offline · Private · Peer-to-Peer
+# DropLine
 
 A concise, code-free GitHub repo blueprint for DropLine: a decentralized, offline-first chat and file-sharing app that uses Bluetooth, Wi‑Fi Direct, and the internet (only when available).
 
